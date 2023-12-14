@@ -19,3 +19,20 @@ for i, v range x {
 #### Slices
 - A "window" on an underlying array
 - Variable size, up to the whole array
+
+#### Hash table
+- Contain key/value pairs
+- Hash function is used to compute the slot for a key
+- Advantages:
+  - Fast lookup than lists
+    - Constants time, vs. linear time
+  - Arbitrary keys
+    - Not ints, like slices or array
+- Disadvantage:
+  - May have collision: two keys hash to same slot
+
+#### Map
+- Implementation of a hash table
+- Use make() to create a map
+
+#### Structs

@@ -1,0 +1,23 @@
+# What Is the Difference Between EBS, EFS, and Instance Store?
+
+
+![Alt text](image.png)
+
+Some Amazon EC2 instance types come with a form of directly attached, block-device storage known as an instance store. Use the instance store for temporary storage. Data that's stored in instance store volumes isn't persistent through instance stops, terminations, or hardware failures.
+
+For data that you want to retain longer, or if you want to encrypt the data, use Amazon EBS volumes instead. EBS volumes have the following features:
+
+- EBS volumes preserve their data through instance stops and terminations.
+- You can back up EBS volumes with EBS snapshots.
+- You can remove EBS volumes from one instance, and reattach them to another.
+- EBS volumes support full-volume encryption.
+
+**Note:** In Amazon EBS, the DeleteOnTermination attribute for an instance's root volume is set to true by default. If you don't change this attribute, then the instance's root volume is deleted when the instance terminates.
+
+Amazon EFS provides shared file storage for use with compute instances in the AWS Cloud and on-premises servers. Applications that require shared file access can use Amazon EFS for reliable file storage delivering high aggregate throughput to thousands of clients simultaneously.
+
+![Alt text](image-1.png)
+
+Source:
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Storage.html
+- https://aws.amazon.com/efs/when-to-choose-efs/
