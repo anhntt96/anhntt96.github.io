@@ -1,0 +1,9 @@
+- [CIDR: Classless Inter-Domain Routing](https://aws.amazon.com/what-is/cidr/?nc1=h_ls)
+- [Amazon Virtual Private Cloud Documentation](https://docs.aws.amazon.com/vpc/)
+- [DDoS Protection](https://aws.amazon.com/shield/)
+- [Placement groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html)
+- [DHCP option sets in Amazon VPC](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_DHCP_Options.html)
+- [How to create a DHCP OptionSet and Work with DHCP in AWS with Demo](https://www.youtube.com/watch?v=1LKBvPTlzBQ)
+- [Network-to-Amazon VPC connectivity options](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/network-to-amazon-vpc-connectivity-options.html)
+- [VPC to VPC connectivity](https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/vpc-to-vpc-connectivity.html)
+  - VPC peering offers the lowest overall cost when compared to other options for inter-VPC connectivity. Latency Lowest
