@@ -1,6 +1,5 @@
 # What Is the Difference Between EBS, EFS, and Instance Store?
 
-
 ![Alt text](image.png)
 
 Some Amazon EC2 instance types come with a form of directly attached, block-device storage known as an instance store. Use the instance store for temporary storage. Data that's stored in instance store volumes isn't persistent through instance stops, terminations, or hardware failures.
@@ -31,8 +30,6 @@ Amazon EFS provides shared file storage for use with compute instances in the AW
 - Long-term storage
 
 
-
-
 TCO: Total Cost of Ownership(an estimate of all the direct and indirect costs involved in acquiring and operating a product or system over its lifetime)
 
 #### ACID
@@ -47,4 +44,20 @@ Source:
 - https://aws.amazon.com/vi/fsx/
 - https://aws.amazon.com/s3/storage-classes/
 - https://en.wikipedia.org/wiki/ACID
+
+### Amazon Athena
+- Amazon Athena is an interactive query service that makes it simple to analyze data directly in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to setup or manage, and you can choose to pay based on the queries you run or compute needed by your queries
+
+# AWS Database
+
+- AWS RDS
+- Aurora
+- DynamoDB
+- DocumentDB (MongoDB)
+- Redshift (Data warehouse)
+- Neptune - Managed Graph Database
+
+
+# Caching
+- Elastic cache: support both Memcache and Redis
 - 
